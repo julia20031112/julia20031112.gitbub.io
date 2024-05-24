@@ -48,7 +48,7 @@ He dividit la web en quatre grans seccions:
   3. **Integració del Mapa a la Web**
     Tecnologia Utilitzada: iframe . El mapa exportat s'integra a la pàgina web mitjançant un element iframe, que permet incrustar contingut HTML dins de la pàgina.
 
-    **<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="1500" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="./mapes/qgis2web_2024_05_21-18_36_26_694442/index.html"></iframe>**
+    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="1500" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="./mapes/qgis2web_2024_05_21-18_36_26_694442/index.html"></iframe>
 # Dificultat  
 - Adaptar la web per a diferents dispositius ha estat un repte considerable.
 - Penjar tots els documents a GitHub.
