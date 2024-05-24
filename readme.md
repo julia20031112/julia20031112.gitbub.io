@@ -1,6 +1,6 @@
 # Títol: ProSolarTGN
- **ProSolar**:referència al projecte d'energia solar fotovoltaica i 
- **TGN**:representa la provincia de Tarragona
+ **ProSolar** fa referència al projecte d'energia solar fotovoltaica i 
+ **TGN** representa la provincia de Tarragona
 # Descripció:
 Aquest projecte web està dedicat a l'estudi del potencial de l'energia solar fotovoltaica a la demarcació de Tarragona. L'equip d'investigació, format per experts en geografia i energia solar, treballa per dur a terme una investigació innovadora i rellevant.
 # Objectiu de la Web
