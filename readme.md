@@ -35,6 +35,7 @@ He dividit la web en quatre grans seccions:
 # Tècnica de Disseny Responsive
  Media Queries: permeten aplicar diferents estils CSS en funció de les característiques del dispositiu, com l'amplada de la pantalla.
    Exemple:
+   
      ***@media only screen and (max-width: 768px) {
          .header-content {
           flex-direction: column;
