@@ -56,4 +56,4 @@ He dividit la web en quatre grans seccions:
 # Millores
 - Secció Contacta'ns més centrat al centre.
 - Connectar a una base de dades per mostrar dades actualitzades de la cartografia.
-- inserir links als projectes finalitzats.
+- Inserir links als projectes finalitzats.
