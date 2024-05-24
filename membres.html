@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Localització</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html" class="ProSolarTGN"> ProSolarTGN </a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="imatges/menu.svg" class="menu-icon">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inici</a></li>
+                    <li><a href="membres.html">Qui som?</a></li>
+                    <li><a href="projectes.html">Que fem?</a></li>
+                    <li><a href="mapa.html">Mapa</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="imatges/cam.svg" id="img-campana" alt="campana">
+                        <div id="campana">
+                            <table id="lista-campana">
+                                <thead>
+                                    <tr>
+                                        <th>Activar notificacions</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1><span> El sol fa el treball,</span> tu gaudeixes de l'energia </h1>
+                <p>
+                    Som un grup de investigació dedicat a l'estudi del potencial de l'energia solar fotovoltaica a la demarcació de Tarragona. Amb una combinació d'investigadors experts i recursos avançats, estem compromesos amb la investigació innovadora per abordar els reptes energètics del nostre temps. Aquí a la nostra pàgina principal, us convidem a explorar el nostre treball, els nostres resultats i el nostre impacte en la transició cap a un futur energètic sostenible.
+                </p>
+                <a href="./Treball.pdf" class="btn-1">Més informació</a>
+            </div>
+            <div class="header-img">
+                <img src="imatges/panels.jpg" alt="">
+            </div>
+        </div>
+    </header>
+
+
+<main class="container membres-page">
+    <h3>Coordinació:</h3>
+    <div class="membre" onclick="toggleInfo('benito')">
+        <img src="imatges/beni.jpg" alt="Benito Zaragozí">
+        <h4>Benito Zaragozí</h4>
+        
+    </div>
+    <div id="benito" class="membre-detall">
+
+        <p>Benito Zaragozí és membre del Departament de Geografia de la Universitat Rovira i Virgili.
+             Té el títol de Doctor/a per la Universitat d'Alacant.</p>
+        
+    </div>
+    
+    <h3>Equip de Treball:</h3>
+    
+    <div class="membre" onclick="toggleInfo('oscar')">
+        <img src="imatges/oscar.jpg" alt="Òscar Saladié Borraz">
+        <h4>Òscar Saladié Borraz</h4>
+    </div>
+    <div id="oscar" class="membre-detall">
+        <p>Òscar Saladié Borraz és membre del Departament de Geografia de la Universitat Rovira i Virgili. 
+            Té el títol de Doctor en Geografia i Història, a més d'una Llicenciatura en Geografia i Història.</p>
+        
+    </div>
+    
+    <div class="membre" onclick="toggleInfo('lluis')">
+        <img src="imatges/lluis.jpg" alt="Lluís Salvat Garcia">
+        <h4>Lluís Salvat Garcia</h4>
+    </div>
+    <div id="lluis" class="membre-detall">
+    <p>Lluís Salvat Garcia és membre del Departament de Geografia de la Universitat Rovira i Virgili.</p>
+    </div>
+
+    <div class="membre" onclick="toggleInfo('sergi')">
+        <img src="imatges/sergi.jpg" alt="Sergi Saladié Gil">
+        <h4>Sergi Saladié Gil</h4>
+    </div>
+    <div id="sergi" class="membre-detall">
+        <p>Sergi Saladié Gil és membre del Departament de Geografia de la Universitat Rovira i Virgili. 
+            Té el títol de Doctor o Doctora per la mateixa universitat, a més d'una Llicenciatura en Geografia.</p>
+    </div>
+    
+    <div class="membre" onclick="toggleInfo('maria')">
+        <img src="imatges/trini.jpg" alt="Maria Trinitat Rovira Soto">
+        <h4>Maria Trinitat Rovira Soto</h4>
+    </div>
+    <div id="maria" class="membre-detall">
+        <p>Maria Trinitat Rovira Soto és membre del Departament de Geografia de la Universitat Rovira i Virgili. 
+            Té una àmplia formació acadèmica, incloent un Màster Universitari en formació de Professorat de Secundària, 
+            Batxillerat, Formació Professional i Ensenyament d'Idiomes, un doctorat per la mateixa universitat, un Màster 
+            Universitari en Direcció i Planificació del Turisme, i una Llicenciatura en Geografia.</p>
+    </div>
+    
+    <div class="membre" onclick="toggleInfo('jordi')">
+        <img src="imatges/jordi.jpg" alt="Jordi Blay Boqué">
+        <h4>Jordi Blay Boqué</h4>
+    </div>
+    <div id="jordi" class="membre-detall">
+        <p>Jordi Blay Boqué és membre del Departament de Geografia de la Universitat Rovira i Virgili. 
+            Té el títol de Doctor en Geografia i Història, a més d'una Llicenciatura en Geografia i Història.</p>
+        
+    </div>
+
+    <p>Aquest és l'equip de treball del nostre grup d'investigació, dedicat a l'estudi i l'exploració de temes relacionats amb l'energia fotovoltaica i altres àmbits rellevants. 
+        Cada membre contribueix amb la seva experiència i coneixements per al desenvolupament dels nostres projectes i investigacions. Si desitges conèixer més sobre el perfil de cada membre, no dubtis a posar-te en contacte amb nosaltres.</p>
+</main>
+<footer class="footer">
+    <div class="footer-content container">
+        <div class="link">
+            <h3> Contacta'ns </h3>
+            <p> Deixa la teva informació als links i ens posarem amb contacte amb vosaltres</p>
+            <ul>
+                <li> <a href="Contacta.html"> Formulari preguntes </a> </li>
+                <li> <a href="Contacta.html"> E-mail </a> </li>
+                <li> <a href="Contacta.html"> Número telefòn </a> </li>
+            </ul>
+        </div>
+        <div class="links">
+            <h3> Segueix-nos </h3>
+            <div class="descarga">
+                <img src="imatges/reds/bxl-facebook.svg" alt="Facebook">
+                <img src="imatges/reds/bxl-instagram.svg" alt="Instagram">
+                <img src="imatges/reds/bxl-twitter.svg" alt="Twitter">
+                <img src="imatges/reds/bxl-youtube.svg" alt="YouTube">
+
+             
+            </div>
+
+        </div>
+
+    </div>
+    <div class="back-to-top">
+        <a href="#top">Tornar a l'inici</a>
+    </div>
+ </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
