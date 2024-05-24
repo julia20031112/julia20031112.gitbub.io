@@ -35,10 +35,10 @@ He dividit la web en quatre grans seccions:
 # Tècnica de Disseny Responsive
  Media Queries: permeten aplicar diferents estils CSS en funció de les característiques del dispositiu, com l'amplada de la pantalla.
    Exemple:
-     @media only screen and (max-width: 768px) {
+     ***@media only screen and (max-width: 768px) {
          .header-content {
           flex-direction: column;
-          text-align: center; }}
+          text-align: center; }}***
 # Cartografia
   1. **Elaboració del Mapa de Coropletes amb QGIS**
     Eina Utilitzada: QGIS 3.4+.  He creat un mapa de coropletes utilitzant el programari QGIS, que permet visualitzar les dades de manera clara i informativa. Les dades utilitzades per elaborar el mapa provenen de l’Observatori de l'Autoconsum a Catalunya, proporcionades per l'ICAEN.
