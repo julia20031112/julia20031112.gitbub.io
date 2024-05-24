@@ -46,7 +46,7 @@ He dividit la web en quatre grans seccions:
     Plugin Utilitzat: qgis2web. Aquest plugin permet exportar els projectes de QGIS a formats compatibles amb la web, com ara HTML, Leaflet o OpenLayers.Procés: Es configura el mapa a QGIS amb les capes i l'estil desitjats i es fa servir el plugin qgis2web per exportar el mapa a un fitxer HTML.
   3. **Integració del Mapa a la Web**
     Tecnologia Utilitzada: iframe . El mapa exportat s'integra a la pàgina web mitjançant un element iframe, que permet incrustar contingut HTML dins de la pàgina.
-     <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="1500" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="./mapes/qgis2web_2024_05_21-18_36_26_694442/index.html"></iframe>
+     -**<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="1500" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="./mapes/qgis2web_2024_05_21-18_36_26_694442/index.html"></iframe>**
 # Dificultat  
 - Adaptar la web per a diferents dispositius ha estat un repte considerable.
 - Penjar tots els documents a GitHub.
