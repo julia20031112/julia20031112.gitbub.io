@@ -51,8 +51,9 @@ He dividit la web en quatre grans seccions:
     <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="1500" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="./mapes/qgis2web_2024_05_21-18_36_26_694442/index.html"></iframe>
 # Dificultat  
 - Adaptar la web per a diferents dispositius ha estat un repte considerable.
-- Penjar tots els documents a GitHub.
+- Penjar el mapa a GitHub.
 - Problemes amb simbologies de capa amb qgis2web.
+- Canvi del mapa on tenia la capa de tota Catalunya ressaltant Tarragona per una capa de sols Tarragona.
 # Millores
 - Secció Contacta'ns més centrat al centre.
 - Connectar a una base de dades per mostrar dades actualitzades de la cartografia.
